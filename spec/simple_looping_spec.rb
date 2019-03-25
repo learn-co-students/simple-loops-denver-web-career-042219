@@ -18,7 +18,7 @@ describe 'Loops' do
   end
 
   describe 'while' do
-    it 'prints out Welcome to Flatiron School\'s Web Development Course! 7 times' do
+    it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
       expect{ while_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
